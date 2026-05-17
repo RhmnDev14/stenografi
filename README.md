@@ -14,14 +14,21 @@ Kamu bisa menginstal keduanya dengan menjalankan perintah:
 pip install Pillow streamlit
 ```
 
-## Cara Menjalankan Program
+## Cara Instalasi & Menjalankan Program
 1. Buka terminal atau command prompt.
-2. Arahkan direktori terminal ke folder tempat program ini berada.
-3. Jalankan script utama:
+2. Clone repositori ini ke komputer kamu:
+   ```bash
+   git clone https://github.com/RhmnDev14/stenografi.git
+   ```
+3. Masuk ke dalam folder program:
+   ```bash
+   cd stenografi
+   ```
+4. Jalankan script utama:
    ```bash
    python3 main.py
    ```
-4. Browser akan terbuka secara otomatis menampilkan antarmuka web steganografi.
+5. Browser akan otomatis terbuka dan menampilkan antarmuka web steganografi.
 
 ## Panduan Penggunaan Web UI
 

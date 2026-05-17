@@ -14,9 +14,5 @@ env/
 # Streamlit
 .streamlit/
 
-# Aplikasi Spesifik
-# Mengabaikan folder assets agar gambar-gambar tes tidak ikut ter-commit ke git
-assets/
-*.png
-*.jpg
-*.jpeg
+.venv/
+
