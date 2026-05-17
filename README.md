@@ -7,9 +7,12 @@ Program berbasis web (UI) untuk menyisipkan pesan rahasia ke dalam gambar (Encod
 2. **Decode**: Membaca pesan teks rahasia yang tersembunyi dari sebuah gambar.
 
 ## Prasyarat
-Pastikan kamu sudah menginstal Python di komputermu. Program ini membutuhkan library `Pillow` untuk memproses gambar dan `streamlit` untuk antarmuka web.
+1. **Python**: Pastikan kamu sudah menginstal Python (versi 3.8 ke atas) di komputermu.
+   - Jika belum punya, silakan download secara gratis di [Situs Resmi Python (python.org)](https://www.python.org/downloads/). 
+   - *(Penting bagi pengguna Windows: pastikan untuk mencentang kotak **"Add Python to PATH"** di halaman awal saat melakukan instalasi!)*
+2. **Library**: Program ini membutuhkan library `Pillow` untuk memproses gambar dan `streamlit` untuk antarmuka web.
 
-Kamu bisa menginstal keduanya dengan menjalankan perintah:
+Setelah Python terinstal, kamu bisa menginstal kedua library tersebut dengan menjalankan perintah berikut di terminal / command prompt:
 ```bash
 pip install Pillow streamlit
 ```
